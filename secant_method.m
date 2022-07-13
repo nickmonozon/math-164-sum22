@@ -15,7 +15,7 @@
 f = @(x) (2*x-1)^2 + 4*(4-1024*x)^2;        % function whose root we want to approximate
 p0 = 0;                                     % first initial approximation
 p1 = 1;                                     % second initial approximation
-tol = 1e-5;                                 % tolerance, e.g. 1e-4 = 10^{-4}
+epsilon = 1e-5;                             % tolerance, e.g. 1e-4 = 10^{-4}
 
 
 %% Secant Method
@@ -31,7 +31,7 @@ while true
     p = p1 - q1*(p1 - p0)/(q1 - q0);      
     
     % check stopping condition 
-    if(abs(p - p1) < tol)
+    if(abs(p - p1) < epsilon)
         break;
     end
     
