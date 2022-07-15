@@ -12,7 +12,7 @@
 
 %% Information and set up
 
-f = @(x) (2*x-1)^2 + 4*(4-1024*x)^4;    % function whose root we want to approximate
+f = @(x) (2*x-1)^2 + 4*(4-1024*x)^4;        % function whose root we want to approximate
 pn1 = 0;                                    % first initial approximation
 p0 = 1;                                     % second initial approximation
 epsilon = 1e-5;                             % tolerance, e.g. 1e-4 = 10^{-4}
