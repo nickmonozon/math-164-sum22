@@ -53,8 +53,8 @@ end
 
 %% Display Information
 
-if( i <= max_iter )         % successful
+if( i <= max_iter )       
     fprintf('\nNewton''s Method approximated the solution p = %.10f after %d iterations.\n\n',p,i);
-else                        % not successful 
+else                    
     fprintf('\nNewton''s Method did not converge within the tolerance in %d iterations.\n\n',max_iter)
 end
