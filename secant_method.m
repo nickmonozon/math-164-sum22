@@ -1,6 +1,6 @@
 %% Secant Method
 
-% This code approximates a solution to f(x) = 0 given initial approximations p0 and p1.
+% This code approximates a solution to f(x) = 0 given initial approximations pn1 and p0.
 
 % INPUTS:
 %   pn1         =   initial approximation
