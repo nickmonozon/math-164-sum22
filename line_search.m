@@ -3,7 +3,7 @@
 % Information and set up
 
 % INPUTS:
-%   'grad'      =   .m file with gradient
+%   'grad'      =   .m file containing gradient
 %   x           =   starting line search point
 %   d           =   search direction
 %   epsilon     =   tolerance, e.g. 1e-4 = 10^{-4}
